@@ -1,59 +1,29 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-10-19
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 5:
 
-### Mục tiêu tuần 5:
+* Hiểu cách thiết kế hệ thống chịu lỗi và tự động mở rộng với ELB và Auto Scaling.
+* Cấu hình được Application Load Balancer (ALB), Target Group và Auto Scaling Group.
+* Nắm cơ bản về định tuyến tên miền Route 53 và CDN CloudFront.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Các công việc thực hiện trong tuần:
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu **Elastic Load Balancing (ELB)**: <br>&emsp; + So sánh Application Load Balancer (ALB) và Network Load Balancer (NLB) <br>&emsp; + Target Groups, Listener Rules và Health Checks | 19/10/2026 | 19/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 3 | - Tìm hiểu **EC2 Auto Scaling**: <br>&emsp; + Launch Template <br>&emsp; + Cấu hình Min / Desired / Max capacity và Scaling Policies (Target Tracking) | 20/10/2026 | 20/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 4 | - Tìm hiểu **Route 53 & CloudFront**: <br>&emsp; + Các kiểu routing DNS trên Route 53 (Simple, Weighted, Failover) <br>&emsp; + Cơ chế cache tại Edge Location và Origin Access Control (OAC) của CloudFront | 21/10/2026 | 21/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 5 | - **Thực hành ELB & Auto Scaling (Phần 1):** <br>&emsp; + Tạo Launch Template từ custom AMI <br>&emsp; + Tạo ALB chạy trên 2 AZ và gắn Auto Scaling Group vào Target Group | 22/10/2026 | 22/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 6 | - **Thực hành ELB & Auto Scaling (Phần 2):** <br>&emsp; + Chạy stress test tăng tải CPU để xem Auto Scaling tự tạo thêm EC2 <br>&emsp; + Terminate thử 1 instance đang chạy để kiểm tra cơ chế tự phục hồi | 23/10/2026 | 23/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
 
+### Kết quả đạt được trong Tuần 5:
 
-### Kết quả đạt được tuần 5:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Dựng được cụm web server chạy Multi-AZ phía sau Application Load Balancer.
+* Cấu hình và test thành công Auto Scaling tự tăng/giảm số lượng máy chủ theo mức tải CPU.
+* Nắm được vai trò của Route 53 và CloudFront trong việc điều hướng và tăng tốc truy cập web.
