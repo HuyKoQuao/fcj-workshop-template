@@ -1,58 +1,29 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-10-26
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 6:
 
-### Mục tiêu tuần 6:
+* Nắm vững các tính năng cốt lõi của Amazon S3 (Storage Classes, Versioning, Lifecycle, Bucket Policy).
+* Phân biệt khi nào dùng S3, EBS và EFS.
+* Thực hành kết nối lưu trữ nội bộ lên S3 thông qua AWS Storage Gateway.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Các công việc thực hiện trong tuần:
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu **Amazon S3**: <br>&emsp; + Bucket, Object, Versioning và mã hóa (SSE-S3, SSE-KMS) <br>&emsp; + Các lớp lưu trữ (Standard, IA, Intelligent-Tiering, Glacier) và Lifecycle Rules | 26/10/2026 | 26/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 3 | - Tìm hiểu bảo mật S3 & **Amazon EFS**: <br>&emsp; + Bucket Policy, Block Public Access và Presigned URL <br>&emsp; + So sánh S3, EBS và EFS (chia sẻ file cho nhiều EC2 cùng lúc) | 27/10/2026 | 27/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 4 | - Tìm hiểu **AWS Storage Gateway**: <br>&emsp; + Phân biệt File Gateway, Volume Gateway và Tape Gateway <br>&emsp; + Cách đồng bộ file từ máy chủ nội bộ lên S3 | 28/10/2026 | 28/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 5 | - **Thực hành Amazon S3:** <br>&emsp; + Tạo bucket, bật Versioning, cài đặt Lifecycle Rule chuyển file sang Glacier <br>&emsp; + Test host static website trên S3 và tạo Presigned URL | 29/10/2026 | 29/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 6 | - **Thực hành Storage Gateway:** <br>&emsp; + Khởi tạo File Gateway, tạo SMB/NFS File Share nối với S3 bucket <br>&emsp; + Mount ổ đĩa mạng lên máy client, copy file và kiểm tra đồng bộ trên S3 | 30/10/2026 | 30/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
 
+### Kết quả đạt được trong Tuần 6:
 
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Biết cách cấu hình S3 an toàn, quản lý phiên bản file và tự động chuyển lớp lưu trữ để giảm chi phí.
+* Hoàn thành bài lab AWS Storage Gateway kết nối chia sẻ file từ client lên S3.
+* Phân biệt rõ ưu nhược điểm của S3, EBS và EFS cho từng loại dữ liệu.
