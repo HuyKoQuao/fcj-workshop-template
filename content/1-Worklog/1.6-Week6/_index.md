@@ -1,57 +1,29 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-10-26
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Master the core features of Amazon S3 (Storage Classes, Versioning, Lifecycle, Bucket Policy).
+* Distinguish when to use S3, EBS, and EFS.
+* Practice connecting on-premises storage to S3 via AWS Storage Gateway.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Carried Out This Week:
 
+| Day | Task | Start Date | Completion Date | Reference Materials |
+| --- | --- | --- | --- | --- |
+| Mon | - Learn about **Amazon S3**: <br>&emsp; + Buckets, Objects, Versioning, and encryption (SSE-S3, SSE-KMS) <br>&emsp; + Storage Classes (Standard, IA, Intelligent-Tiering, Glacier) and Lifecycle Rules | 26/10/2026 | 26/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Tue | - Learn about S3 Security & **Amazon EFS**: <br>&emsp; + Bucket Policies, Block Public Access, and Presigned URLs <br>&emsp; + Compare S3, EBS, and EFS (sharing files across multiple EC2 instances simultaneously) | 27/10/2026 | 27/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Wed | - Learn about **AWS Storage Gateway**: <br>&emsp; + Distinguish between File Gateway, Volume Gateway, and Tape Gateway <br>&emsp; + How file synchronization works from on-premises servers to S3 | 28/10/2026 | 28/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Thu | - **Amazon S3 Practice:** <br>&emsp; + Create a bucket, enable Versioning, and configure a Lifecycle Rule to transition files to Glacier <br>&emsp; + Test static website hosting on S3 and generate a Presigned URL | 29/10/2026 | 29/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Fri | - **Storage Gateway Practice:** <br>&emsp; + Set up a File Gateway and create an SMB/NFS File Share connected to an S3 bucket <br>&emsp; + Mount the network drive on a client machine, copy files, and verify synchronization on S3 | 30/10/2026 | 30/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Learned how to configure S3 securely, manage file versions, and automate storage class transitions to reduce costs.
+* Completed the AWS Storage Gateway lab connecting file shares from a client to S3.
+* Clearly distinguished the pros and cons of S3, EBS, and EFS for different data types.
