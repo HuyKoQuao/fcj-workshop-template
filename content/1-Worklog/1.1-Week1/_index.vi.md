@@ -16,11 +16,11 @@ pre: " <b> 1.1. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Làm quen với mentor Lữ Hoàn Thiện và team FCJ <br> - Đọc nội quy thực tập, lộ trình học và yêu cầu đầu ra của khóa | 21/09/2026 | 21/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Tìm hiểu AWS Global Infrastructure (Regions, AZs, Edge Locations) <br> - Tìm hiểu các nhóm dịch vụ chính: <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database | 22/09/2026 | 22/09/2026 | <https://000001.awsstudygroup.com/> |
-| 4 | - Tạo tài khoản AWS Free Tier <br> - Bật MFA cho Root User và tạo IAM Admin User để dùng hằng ngày <br> - Tìm hiểu Billing, Cost Explorer và thiết lập AWS Budgets | 23/09/2026 | 23/09/2026 | <https://000002.awsstudygroup.com/> |
-| 5 | - **Thực hành AWS CLI:** <br>&emsp; + Cài đặt AWS CLI trên máy <br>&emsp; + Cấu hình Access Key, Secret Key, Region (`aws configure`) <br>&emsp; + Chạy thử các lệnh kiểm tra account và danh sách Region | 24/09/2026 | 24/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - Tìm hiểu cơ bản về EC2 (Instance types, AMI, Key Pair, EBS) <br> - **Thực hành:** Khởi tạo một EC2 instance, kết nối SSH và terminate sau khi test xong | 25/09/2026 | 25/09/2026 | <https://000004.awsstudygroup.com/> |
+| 2 | - Làm quen với mentor Lữ Hoàn Thiện và team FCJ <br> - Đọc nội quy thực tập, lộ trình học và yêu cầu đầu ra của khóa | 21/09/2026 | 21/09/2026 | |
+| 3 | - Tìm hiểu AWS Global Infrastructure (Regions, AZs, Edge Locations) <br> - Tìm hiểu các nhóm dịch vụ chính: <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database | 22/09/2026 | 22/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Tạo tài khoản AWS Free Tier <br> - Bật MFA cho Root User và tạo IAM Admin User để dùng hằng ngày <br> - Tìm hiểu Billing, Cost Explorer và thiết lập AWS Budgets | 23/09/2026 | 23/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - **Thực hành AWS CLI:** <br>&emsp; + Cài đặt AWS CLI trên máy <br>&emsp; + Cấu hình Access Key, Secret Key, Region (`aws configure`) <br>&emsp; + Chạy thử các lệnh kiểm tra account và danh sách Region | 24/09/2026 | 24/09/2026 | <https://docs.aws.amazon.com/cli/> |
+| 6 | - Tìm hiểu cơ bản về EC2 (Instance types, AMI, Key Pair, EBS) <br> - **Thực hành:** Khởi tạo một EC2 instance, kết nối SSH và terminate sau khi test xong | 25/09/2026 | 25/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được trong Tuần 1:
 
