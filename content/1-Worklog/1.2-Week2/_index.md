@@ -8,23 +8,22 @@ pre: " <b> 1.2. </b> "
 
 ### Week 2 Objectives:
 
-* Understand AWS networking fundamentals and design isolated Virtual Private Clouds (VPC).
-* Configure public/private subnets, route tables, Internet Gateways, and NAT Gateways.
-* Implement network security layers using Security Groups and Network ACLs (NACLs).
+* Understand how to design an Amazon VPC virtual network and allocate IP address ranges (CIDR).
+* Configure Public/Private Subnets, Route Tables, Internet Gateways, and NAT Gateways.
+* Distinguish between and use Security Groups and Network ACLs (NACLs).
 
-### Tasks to be carried out this week:
+### Tasks Carried Out This Week:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
+| Day | Task | Start Date | Completion Date | Reference Materials |
 | --- | --- | --- | --- | --- |
-| 2 | - Learn Amazon VPC fundamentals: <br>&emsp; + CIDR blocks & IP addressing <br>&emsp; + Public Subnets vs. Private Subnets <br>&emsp; + Multi-AZ network design | 09/28/2026 | 09/28/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Learn VPC routing and gateways: <br>&emsp; + Route Tables <br>&emsp; + Internet Gateway (IGW) <br>&emsp; + NAT Gateway vs. NAT Instance <br>&emsp; + VPC Endpoints (Gateway & Interface) | 09/29/2026 | 09/29/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Learn VPC security and traffic monitoring: <br>&emsp; + Stateful Security Groups vs. Stateless NACLs <br>&emsp; + Bastion Host architecture <br>&emsp; + VPC Flow Logs | 09/30/2026 | 09/30/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Learn hybrid & multi-VPC connectivity: <br>&emsp; + VPC Peering <br>&emsp; + AWS Transit Gateway <br>&emsp; + Site-to-Site VPN & AWS Direct Connect overview | 10/01/2026 | 10/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - **Practice:** <br>&emsp; + Build a custom Multi-AZ VPC from scratch <br>&emsp; + Configure IGW, NAT Gateway, and custom Route Tables <br>&emsp; + Deploy a Bastion Host in Public Subnet and test outbound internet from Private EC2 <br>&emsp; + Set up VPC Peering between two VPCs | 10/02/2026 | 10/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | - Learn about Amazon VPC: <br>&emsp; + CIDR blocks and subnetting <br>&emsp; + Differences between Public Subnets and Private Subnets <br>&emsp; + Designing networks across multiple Availability Zones (Multi-AZ) | 28/09/2026 | 28/09/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Tue | - Learn about routing and Internet connectivity in a VPC: <br>&emsp; + Route Tables <br>&emsp; + Internet Gateway (IGW) and NAT Gateway <br>&emsp; + VPC Endpoints (Gateway & Interface) | 29/09/2026 | 29/09/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Wed | - Learn about network-level security: <br>&emsp; + Security Groups (Stateful) vs. NACLs (Stateless) <br>&emsp; + VPC Flow Logs | 30/09/2026 | 30/09/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Thu | - **Practice (Part 1):** <br>&emsp; + Create a new VPC with 2 Public Subnets and 2 Private Subnets <br>&emsp; + Attach an IGW and configure the Route Table for the Public Subnet | 01/10/2026 | 01/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Fri | - **Practice (Part 2):** <br>&emsp; + Create a NAT Gateway to enable Internet access for EC2 instances in the Private Subnet <br>&emsp; + Test Security Group and NACL rules, and delete the NAT Gateway after completing the lab | 02/10/2026 | 02/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
 
 ### Week 2 Achievements:
 
-* Mastered CIDR subnetting and designed a Multi-AZ VPC architecture separating public-facing and private workloads.
-* Configured Internet Gateways, NAT Gateways, and custom Route Tables to control inbound and outbound network traffic.
-* Differentiated and applied Security Groups and NACLs for defense-in-depth network security.
-* Built and verified VPC Peering connectivity between isolated VPC environments.
+* Learned how to calculate CIDR blocks and build a complete Multi-AZ VPC architecture from scratch.
+* Properly configured Route Tables, IGWs, and NAT Gateways for each subnet type.
+* Gained a clear understanding of when to use Security Groups versus NACLs to allow or block traffic.
