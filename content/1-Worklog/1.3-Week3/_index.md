@@ -8,23 +8,22 @@ pre: " <b> 1.3. </b> "
 
 ### Week 3 Objectives:
 
-* Understand the AWS Shared Responsibility Model and cloud security best practices.
-* Implement least-privilege access control using AWS IAM Users, Groups, Roles, and JSON Policies.
-* Explore AWS encryption, secrets management, and threat detection services.
+* Understand inter-VPC networking models on AWS: Bastion Host, VPC Peering, and Transit Gateway.
+* Gain an overview of hybrid network connectivity (Site-to-Site VPN, Direct Connect).
+* Complete the multi-VPC routing lab using Transit Gateway.
 
-### Tasks to be carried out this week:
+### Tasks Carried Out This Week:
 
-| Day | Task | Start Date | Completion Date | Reference Material |
+| Day | Task | Start Date | Completion Date | Reference Materials |
 | --- | --- | --- | --- | --- |
-| 2 | - Study the AWS Shared Responsibility Model <br> - Learn core AWS IAM components: <br>&emsp; + IAM Users & Groups <br>&emsp; + IAM Policies (Managed vs. Inline, JSON syntax) <br>&emsp; + Principle of Least Privilege | 10/05/2026 | 10/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | - Learn advanced IAM & multi-account governance: <br>&emsp; + IAM Roles & AWS STS temporary credentials <br>&emsp; + IAM Identity Center (SSO) <br>&emsp; + AWS Organizations & Service Control Policies (SCPs) | 10/06/2026 | 10/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Learn encryption and secrets management services: <br>&emsp; + AWS Key Management Service (KMS) <br>&emsp; + AWS Secrets Manager vs. Systems Manager Parameter Store <br>&emsp; + AWS Certificate Manager (ACM) | 10/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Learn auditing, compliance, and perimeter security: <br>&emsp; + AWS CloudTrail <br>&emsp; + Amazon GuardDuty & Security Hub <br>&emsp; + AWS WAF & AWS Shield | 10/08/2026 | 10/08/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - **Practice:** <br>&emsp; + Create IAM Users, Groups, and custom least-privilege JSON Policies <br>&emsp; + Attach an IAM Role to an EC2 instance to access S3 securely without hardcoded credentials <br>&emsp; + Enable CloudTrail logging and test KMS encryption | 10/09/2026 | 10/09/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | - Learn about the Bastion Host model for accessing servers in a Private Subnet <br> - Learn about **VPC Peering** and its non-transitive limitation | 05/10/2026 | 05/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Tue | - Learn about **AWS Transit Gateway** (Hub-and-Spoke model) <br> - Read an overview of Site-to-Site VPN and AWS Direct Connect | 06/10/2026 | 06/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Wed | - **Practice:** <br>&emsp; + Set up a Bastion Host in a Public Subnet to SSH into an EC2 instance in a Private Subnet <br>&emsp; + Establish VPC Peering between 2 VPCs with different CIDR blocks and update Route Tables | 07/10/2026 | 07/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Thu | - **Transit Gateway Practice:** <br>&emsp; + Create a Transit Gateway and attach 3 VPCs to it <br>&emsp; + Configure the Transit Gateway Route Table to enable communication between VPCs | 08/10/2026 | 08/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Fri | - Test ping connectivity between EC2 instances across different VPCs via Transit Gateway <br> - Clean up all Transit Gateway Attachments and EC2 instances from the lab | 09/10/2026 | 09/10/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
 
 ### Week 3 Achievements:
 
-* Applied the AWS Shared Responsibility Model and replaced root account operations with dedicated IAM users and groups.
-* Authored custom JSON IAM policies and used IAM Instance Profiles to eliminate static credentials on EC2 instances.
-* Understood key management workflows with AWS KMS and secret rotation with AWS Secrets Manager.
-* Configured AWS CloudTrail to audit API activities across the AWS account.
+* Learned how to use a Bastion Host and configure VPC Peering to connect two internal networks.
+* Completed the AWS Transit Gateway lab and understood how to manage centralized routing across multiple VPCs.
+* Grasped the fundamental concepts of VPN connectivity from an on-premises environment to AWS.
