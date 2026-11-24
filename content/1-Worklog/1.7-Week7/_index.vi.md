@@ -1,59 +1,29 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
-weight: 1
+date: 2026-11-02
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 7:
 
-### Mục tiêu tuần 7:
+* Hiểu cách vận hành cơ sở dữ liệu quan hệ trên AWS với Amazon RDS và Amazon Aurora.
+* Phân biệt RDS Multi-AZ và Read Replicas.
+* Nắm cơ bản về cơ sở dữ liệu NoSQL Amazon DynamoDB và thực hành RDS Failover.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Các công việc thực hiện trong tuần:
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | - Tìm hiểu **Amazon RDS**: <br>&emsp; + Các engine hỗ trợ (MySQL, PostgreSQL) và DB Subnet Group <br>&emsp; + Automated Backups, Snapshots và Point-in-Time Recovery | 02/11/2026 | 02/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 3 | - Tìm hiểu kiến trúc mở rộng CSDL: <br>&emsp; + So sánh **RDS Multi-AZ** (dự phòng HA) và **Read Replicas** (tăng tải đọc) <br>&emsp; + Tổng quan về kiến trúc **Amazon Aurora** | 03/11/2026 | 03/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 4 | - Tìm hiểu **Amazon DynamoDB** & **ElastiCache**: <br>&emsp; + Khái niệm Table, Item, Partition Key, Sort Key và chế độ On-Demand <br>&emsp; + Tổng quan ElastiCache (Redis/Memcached) | 04/11/2026 | 04/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 5 | - **Thực hành Amazon RDS:** <br>&emsp; + Tạo DB Subnet Group và khởi tạo RDS MySQL chế độ Multi-AZ trong Private Subnet <br>&emsp; + Cấu hình Security Group chỉ mở cổng 3306 cho EC2 app server | 05/11/2026 | 05/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| 6 | - **Thực hành Kết nối & Failover:** <br>&emsp; + Kết nối ứng dụng từ EC2 vào RDS và tạo bảng/dữ liệu thử nghiệm <br>&emsp; + Chạy thử tính năng "Reboot with Failover" trên RDS để kiểm tra chuyển đổi sang máy dự phòng | 06/11/2026 | 06/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
 
+### Kết quả đạt được trong Tuần 7:
 
-### Kết quả đạt được tuần 7:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Triển khai được RDS MySQL Multi-AZ nằm cô lập trong Private Subnet và kết nối thành công từ EC2.
+* Kiểm chứng trực tiếp cơ chế tự động failover của RDS khi máy chủ chính gặp sự cố.
+* Nắm được cấu trúc lưu trữ key-value/document của DynamoDB để áp dụng cho các hệ thống serverless.
