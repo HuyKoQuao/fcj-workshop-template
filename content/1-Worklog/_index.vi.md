@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-Trong kỳ thực tập tại **AWS First Cloud Journey (FCJ)** kéo dài **14 tuần** (từ ngày **14/09/2026** đến ngày **14/12/2026**), lộ trình thực tập được chia thành hai giai đoạn chính: 8 tuần đầu tìm hiểu lý thuyết kết hợp thực hành lab trên các nhóm dịch vụ cốt lõi của AWS, và 3 tuần cuối tập trung thiết kế, triển khai dự án cuối kỳ **Driver Drowsiness & Distraction Detection** theo hướng Edge AI kết hợp AWS Serverless.
+Trong kỳ thực tập tại **AWS First Cloud Journey (FCJ)** kéo dài **14 tuần** (từ ngày **14/09/2026** đến ngày **14/12/2026**), lộ trình thực tập được chia thành hai giai đoạn chính: 8 tuần đầu tìm hiểu lý thuyết kết hợp thực hành lab trên các nhóm dịch vụ cốt lõi của AWS, và 3 tuần cuối tập trung thiết kế, triển khai dự án cuối kỳ **Driver Drowsiness & Distraction Detection**.
 
 Nội dung chi tiết từng tuần được tổng hợp theo các mục dưới đây:
 
