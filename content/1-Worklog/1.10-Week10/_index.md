@@ -1,57 +1,29 @@
 ---
 title: "Week 10 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-11-23
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Fully deploy the project's AWS Cloud services (**DynamoDB, Cognito, Lambda, API Gateway, S3, CloudFront, CloudWatch, IAM, CloudTrail, Budgets**).
+* Finalize the **Local Event Buffer & Retry** mechanism, fine-tune **Temporal Analysis**, and further evaluate **Gaze Direction** at the Edge.
+* Test the entire system under various lighting conditions/camera angles and verify behavior during network disconnections.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Carried Out This Week:
 
+| Day | Task | Start Date | Completion Date | Reference Materials |
+| --- | --- | --- | --- | --- |
+| Mon | - Create an **Amazon DynamoDB** table to store event metadata with `event_id` as the key <br> - Configure an **Amazon Cognito** User Pool for user registration, sign-in, and JWT issuance <br> - Create least-privilege **IAM Roles/Policies** for the Lambda functions | 23/11/2026 | 23/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> <br> <https://docs.aws.amazon.com/cognito/> |
+| Tue | - Develop the **Lambda Event Writer** function to validate payloads and write to DynamoDB using Conditional `PutItem` (preventing duplicate `event_id` entries) <br> - Develop the **Lambda Event Reader** function to query event history <br> - Configure **API Gateway (HTTP API)** and attach a **JWT Authorizer** | 24/11/2026 | 24/11/2026 | <https://docs.aws.amazon.com/apigateway/> |
+| Wed | - Upload the Dashboard frontend to **S3 (private)** and configure **CloudFront** using **Origin Access Control (OAC)** <br> - Enable **CloudWatch** (API access logs, Lambda logs, errors, duration, DynamoDB metrics), **CloudTrail**, and set up alert thresholds in **AWS Budgets** | 25/11/2026 | 25/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> |
+| Thu | - Finalize the **Local Event Buffer** and **Retry** mechanism on the Edge device (buffering events locally during network outages and automatically resending via HTTPS POST once reconnected) <br> - Refine the **Temporal Analysis** algorithm and further evaluate the stability of **Gaze Direction** | 26/11/2026 | 26/11/2026 | OpenCV & MediaPipe Docs |
+| Fri | - Test EAR, MAR, and Head Pose detection across various lighting conditions and camera angles <br> - Disconnect the network to verify local caching in the Local Event Buffer, then restore connectivity to confirm full data synchronization to DynamoDB and display on the Dashboard | 27/11/2026 | 27/11/2026 | Project GitHub Repository |
 
 ### Week 10 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Built the complete Serverless backend and frontend Dashboard on AWS, with JWT authentication and read/write data flows operating reliably.
+* Finalized the **Local Event Buffer & Retry** mechanism, ensuring no events are lost when Internet connectivity is interrupted.
+* Completed real-world testing across multiple lighting conditions, camera angles, and network fault-tolerance scenarios ahead of the submission deadline.
