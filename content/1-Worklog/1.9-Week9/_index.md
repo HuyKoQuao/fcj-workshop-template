@@ -1,57 +1,28 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-11-16
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 9 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Finalize the capstone project topic **Driver Drowsiness & Distraction Detection** (combining Edge AI and AWS Cloud).
+* Complete the system architecture design from Computer Vision processing at the Edge to storage and visualization on AWS Serverless.
+* Estimate operational costs via AWS Pricing Calculator and align the proposal with mentor Lu Hoan Thien.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks Carried Out This Week:
 
+| Day | Task | Start Date | Completion Date | Reference Materials |
+| --- | --- | --- | --- | --- |
+| Mon | - Finalize the **Driver Drowsiness & Distraction Detection** topic <br> - Define the **Edge AI + AWS Cloud** processing approach: process webcam video directly on the Edge device to reduce latency, save bandwidth, and protect privacy, sending only event metadata to AWS | 16/11/2026 | 16/11/2026 | Project Proposal |
+| Tue | - Design the processing pipeline on the Edge Device: <br>&emsp; + Use **OpenCV** + **MediaPipe Face Mesh** (478 landmarks) to extract **EAR**, **MAR**, **Head Pose**, and experiment with **Gaze Direction** <br>&emsp; + Design the **Temporal Analysis** step (rule-based + CSV analysis) and **Local Event Buffer** with a **Retry** mechanism | 17/11/2026 | 17/11/2026 | OpenCV & MediaPipe Docs |
+| Wed | - Design the Serverless architecture on AWS: <br>&emsp; + Event ingestion flow: **API Gateway (HTTP API)** -> **Lambda Event Writer** -> **DynamoDB** (Conditional `PutItem` by `event_id` to prevent duplicate writes) <br>&emsp; + Dashboard viewing flow: **Amazon Cognito** (JWT) -> **API Gateway (JWT Authorizer)** -> **Lambda Event Reader** -> **DynamoDB** <br>&emsp; + Frontend: **Amazon S3 (private)** + **Amazon CloudFront (OAC)** | 18/11/2026 | 18/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> <br> <https://docs.aws.amazon.com/serverless/> |
+| Thu | - Add security, monitoring, and cost estimation layers: <br>&emsp; + Manage permissions with **IAM**, monitor via **CloudWatch** & **CloudTrail**, and note **AWS WAF** as an optional extended protection component <br>&emsp; + Estimate monthly costs for serverless services using **AWS Pricing Calculator** | 19/11/2026 | 19/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> <br> <https://calculator.aws/> |
+| Fri | - Present the proposal and architecture diagram <br> - Finalize remaining action items to complete: Local Event Buffer/Retry, Temporal Analysis, and testing under various lighting conditions/camera angles | 20/11/2026 | 20/11/2026 | Project Proposal |
 
 ### Week 9 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Completed the proposal and 10-step architecture diagram for the **Driver Drowsiness & Distraction Detection** system.
+* Selected a suitable Serverless architecture to optimize costs based on actual request volume and ensure driver visual privacy.
