@@ -25,7 +25,9 @@ chapter: false
 
 &emsp; **Internship Duration:** From 14/09/2026 to 14/12/2026
 
-![Your Avatar](/static/images/image.png)
+![Your Avatar](/fcj-workshop-template/images/image.png)
+
+
 
 ### Report Contents
 
