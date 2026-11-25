@@ -16,7 +16,7 @@ pre: " <b> 1.11. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 2 | - Cập nhật hoàn chỉnh toàn bộ Worklog 11 tuần và tài liệu dự án **Driver Drowsiness & Distraction Detection** lên trang báo cáo Hugo (GitHub Pages) <br> - Nộp bài đúng hạn **30/11/2026** cho mentor **Lữ Hoàn Thiện** <br> - Chạy demo trực tiếp (Webcam Edge AI phát hiện buồn ngủ/mất tập trung -> gửi metadata qua API Gateway/Lambda vào DynamoDB -> đăng nhập Cognito xem lịch sử trên CloudFront Dashboard) và bảo vệ kiến trúc dự án <br> - Xóa toàn bộ tài nguyên lab/dự án tạm thời và kiểm tra Cost Explorer để xác nhận không còn chi phí phát sinh | 30/11/2026 | 30/11/2026 | Project GitHub Repository <br> <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Cập nhật hoàn chỉnh toàn bộ Worklog 11 tuần và tài liệu dự án **Driver Drowsiness & Distraction Detection** lên trang báo cáo Hugo (GitHub Pages) <br> - Nộp bài đúng hạn **30/11/2026** <br> - Chạy demo trực tiếp (Webcam Edge AI phát hiện buồn ngủ/mất tập trung -> gửi metadata qua API Gateway/Lambda vào DynamoDB -> đăng nhập Cognito xem lịch sử trên CloudFront Dashboard) và bảo vệ kiến trúc dự án <br> - Xóa toàn bộ tài nguyên lab/dự án tạm thời và kiểm tra Cost Explorer để xác nhận không còn chi phí phát sinh | 30/11/2026 | 30/11/2026 | Project GitHub Repository |
 
 ### Kết quả đạt được trong Tuần 11:
 
