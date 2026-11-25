@@ -1,59 +1,28 @@
 ---
 title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+date: 2026-11-16
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 9:
 
-### Mục tiêu tuần 9:
+* Chốt đề tài Dự án cuối kỳ **Driver Drowsiness & Distraction Detection** (kết hợp Edge AI và AWS Cloud).
+* Hoàn thiện thiết kế kiến trúc hệ thống từ bước xử lý Computer Vision tại Edge đến lưu trữ và hiển thị trên AWS Serverless.
+* Ước tính chi phí vận hành qua AWS Pricing Calculator và thống nhất proposal với mentor Lữ Hoàn Thiện.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Các công việc thực hiện trong tuần:
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
+| --- | --- | --- | --- | --- |
+| 2 | - Chốt đề tài **Driver Drowsiness & Distraction Detection** <br> - Xác định hướng xử lý **Edge AI + AWS Cloud**: xử lý video webcam trực tiếp tại thiết bị Edge để giảm độ trễ, tiết kiệm băng thông và bảo vệ quyền riêng tư, chỉ gửi metadata sự kiện lên AWS | 16/11/2026 | 16/11/2026 | Project Proposal |
+| 3 | - Thiết kế luồng xử lý tại Edge Device: <br>&emsp; + Dùng **OpenCV** + **MediaPipe Face Mesh** (478 landmarks) trích xuất **EAR**, **MAR**, **Head Pose** và thử nghiệm **Gaze Direction** <br>&emsp; + Thiết kế bước **Temporal Analysis** (rule-based + CSV analysis) và **Local Event Buffer** kèm cơ chế **Retry** | 17/11/2026 | 17/11/2026 | OpenCV & MediaPipe Docs |
+| 4 | - Thiết kế kiến trúc Serverless trên AWS: <br>&emsp; + Luồng ghi sự kiện: **API Gateway (HTTP API)** -> **Lambda Event Writer** -> **DynamoDB** (Conditional `PutItem` theo `event_id` để chống ghi trùng) <br>&emsp; + Luồng xem Dashboard: **Amazon Cognito** (JWT) -> **API Gateway (JWT Authorizer)** -> **Lambda Event Reader** -> **DynamoDB** <br>&emsp; + Frontend: **Amazon S3 (private)** + **Amazon CloudFront (OAC)** | 18/11/2026 | 18/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> <br> <https://docs.aws.amazon.com/serverless/> |
+| 5 | - Bổ sung lớp bảo mật, giám sát và tính chi phí: <br>&emsp; + Phân quyền bằng **IAM**, giám sát qua **CloudWatch** & **CloudTrail**, ghi nhận **AWS WAF** là thành phần bảo vệ mở rộng (optional) <br>&emsp; + Ước tính chi phí hàng tháng cho các dịch vụ serverless trên **AWS Pricing Calculator** | 19/11/2026 | 19/11/2026 | <https://youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i&si=z_oemJYZVgAPlx1x> <br> <https://calculator.aws/> |
+| 6 | - Trình bày proposal, sơ đồ kiến trúc <br> - Chốt các đầu việc cần hoàn thiện tiếp: Local Event Buffer/Retry, Temporal Analysis và kiểm thử điều kiện ánh sáng/góc quay | 20/11/2026 | 20/11/2026 | Project Proposal |
 
+### Kết quả đạt được trong Tuần 9:
 
-### Kết quả đạt được tuần 9:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Hoàn thiện proposal và sơ đồ kiến trúc 10 bước của hệ thống **Driver Drowsiness & Distraction Detection**.
+* Chọn được kiến trúc Serverless phù hợp để tối ưu chi phí theo lượt request thực tế và đảm bảo quyền riêng tư hình ảnh tài xế.
