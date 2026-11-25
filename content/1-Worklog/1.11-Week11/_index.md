@@ -16,7 +16,7 @@ pre: " <b> 1.11. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Materials |
 | --- | --- | --- | --- | --- |
-| Mon | - Fully update the 11-week Worklog and **Driver Drowsiness & Distraction Detection** project documentation onto the Hugo report site (GitHub Pages) <br> - Submit the deliverables on time by **30/11/2026** to mentor **Lu Hoan Thien** <br> - Run a live demo (Webcam Edge AI detects drowsiness/distraction -> sends metadata via API Gateway/Lambda into DynamoDB -> log in via Cognito to view history on the CloudFront Dashboard) and defend the project architecture <br> - Delete all temporary lab/project resources and verify in Cost Explorer that no ongoing charges remain | 30/11/2026 | 30/11/2026 | Project GitHub Repository <br> <https://cloudjourney.awsstudygroup.com/> |
+| Mon | - Fully update the 11-week Worklog and **Driver Drowsiness & Distraction Detection** project documentation onto the Hugo report site (GitHub Pages) <br> - Submit the deliverables on time by **30/11/2026** <br> - Run a live demo (Webcam Edge AI detects drowsiness/distraction -> sends metadata via API Gateway/Lambda into DynamoDB -> log in via Cognito to view history on the CloudFront Dashboard) and defend the project architecture <br> - Delete all temporary lab/project resources and verify in Cost Explorer that no ongoing charges remain | 30/11/2026 | 30/11/2026 | Project GitHub Repository <br> <https://cloudjourney.awsstudygroup.com/> |
 
 ### Week 11 Achievements:
 
