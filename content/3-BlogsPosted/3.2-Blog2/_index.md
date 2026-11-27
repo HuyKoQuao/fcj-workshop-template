@@ -100,7 +100,7 @@ Amazon S3 Storage Classes can be grouped according to data access frequency and 
 - **Archive:** Long-term data storage for information that is rarely accessed and can tolerate longer retrieval times.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/NguyenMinhPhuong_Workshop/images/s3-storage-hierarchy.png" alt="Amazon S3 Storage Hierarchy" style="width: 90%; max-width: 850px; border-radius: 8px;">
+  <img src="/fcj-workshop-template/images/s3-storage-hierarchy.png" alt="Amazon S3 Storage Hierarchy" style="width: 90%; max-width: 850px; border-radius: 8px;">
   <p><em>Figure 1 - Amazon S3 storage hierarchy based on data access requirements.</em></p>
 </div>
 
@@ -120,7 +120,7 @@ Amazon S3 provides multiple Storage Classes that users can select based on their
 | S3 Express One Zone | High-performance storage in a single Availability Zone | Applications requiring very low access latency |
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/NguyenMinhPhuong_Workshop/images/s3-storage-classes.png" alt="Overview of 8 Amazon S3 Storage Classes" style="width: 90%; max-width: 850px; border-radius: 8px;">
+  <img src="/fcj-workshop-template/images/s3-storage-classes.png" alt="Overview of 8 Amazon S3 Storage Classes" style="width: 90%; max-width: 850px; border-radius: 8px;">
   <p><em>Figure 2 - Overview of the eight Amazon S3 Storage Classes and their common use cases.</em></p>
 </div>
 
