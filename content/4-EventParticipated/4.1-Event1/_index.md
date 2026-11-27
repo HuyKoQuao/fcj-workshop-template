@@ -1,126 +1,118 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party"
+date: 2026-09-29
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Event Report: “AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party”
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+### General Event Information
 
-### Event Objectives
+- **Event Name:** AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party
+- **Date:** September 29, 2026
+- **Watch Party Location:** AWS Office, Ho Chi Minh City
+- **Main Event Venue:** JW Marriott Hotel Hanoi
+- **Organizer:** Amazon Web Services (AWS)
+- **Format:** Hybrid (Live broadcast from Hanoi combined with in-person networking in HCMC)
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### Purpose of the Event
+
+- Update the technology community in Ho Chi Minh City on the latest trends in Cloud Computing, Generative AI, and Agentic AI.
+- Deepen technical knowledge of cloud architecture and modern application development through live-streamed sessions from AWS specialists.
+- Explore real-world applications of AI Agents for workflow automation, complex task execution, and enterprise system modernization.
+- Discover the role of the AWS service ecosystem in building highly scalable applications.
+- Foster a space for networking and knowledge exchange among local developers, cloud engineers, and AI enthusiasts.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Dr. Werner Vogels** – Chief Technology Officer (CTO), Amazon
+- **AWS Solutions Architects & Engineering Specialists** (Sharing insights across the Builders x AI and application modernization tracks)
 
-### Key Highlights
+### Event Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Keynote – Cloud Computing and the Agentic AI Era
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The opening session, broadcast live from Hanoi, focused on how cloud computing and artificial intelligence are driving enterprise innovation and digital transformation:
 
-#### Transitioning to modern application architecture – Microservices
+- **Technology Shift:** The evolution from traditional Generative AI to highly autonomous Agentic AI.
+- **Workflow Automation:** Leveraging AI Agents to orchestrate and execute complex operational workflows.
+- **Infrastructure Modernization:** Upgrading enterprise applications with a focus on security, scalability, and rapid innovation in the cloud.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+#### Builders x AI – Software Development with Agentic AI
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+The **Builders x AI** track delved into modern methodologies for building and operating software:
 
-#### Domain-Driven Design (DDD)
+- **Generative AI:** AI systems capable of generating diverse outputs such as text, source code, and technical assets.
+- **Agentic AI:** Architectures enabling AI systems to plan tasks independently, interact with external tools, and execute multi-step workflows.
+- **AI-Assisted Software Development:** Integrating AI tools into coding, code analysis, testing, and optimizing the software development lifecycle.
+- **Cloud-Native Applications:** Designing applications to fully leverage elasticity, auto-scaling, and managed cloud services.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### AI-Driven Application Modernization
 
-#### Event-Driven Architecture
+This theme highlighted the tight integration between AI capabilities and cloud infrastructure in upgrading enterprise technology systems:
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+- **Cloud Migration:** Migrating and re-architecting legacy infrastructure into modern cloud environments.
+- **AI-Assisted Software Engineering:** Accelerating system development and maintenance through intelligent automation.
+- **Building Data Foundations:** Standardizing data architectures to power large-scale AI applications and improve operational efficiency.
 
-#### Compute Evolution
+#### AWS Community Networking in Ho Chi Minh City
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+Alongside the live-streamed sessions from Hanoi, the Watch Party at the AWS HCMC office served as an in-person hub for the local tech community:
 
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- Exchanging hands-on experience implementing AWS services in real-world projects.
+- Discussing the potential and challenges of Generative AI and Agentic AI.
+- Expanding professional networks within Ho Chi Minh City's developer ecosystem.
 
 ### Key Takeaways
 
-#### Design Mindset
+#### Agentic AI Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Beyond Traditional Chatbots:** Agentic AI combines Large Language Models (LLMs) with APIs, databases, and external tools to solve multi-step problems autonomously rather than merely generating conversational replies.
+- **End-to-End Automation:** Unlocks the ability to build smarter, more adaptable automation workflows in production environments.
 
-#### Technical Architecture
+#### Foundational Role of Cloud Computing for AI
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Comprehensive Infrastructure:** The cloud provides the compute capacity, storage, and managed services required to develop, deploy, and operate modern AI workloads.
+- **Integration and Scalability:** Enables organizations to dynamically scale resources and seamlessly connect diverse software components based on actual demand.
 
-#### Modernization Strategy
+#### Modern Software Development with AI
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- **AI as an Enabler, Not a Replacement for Engineering Fundamentals:** While AI tools accelerate coding, analysis, and testing, software quality still fundamentally relies on sound system architecture, software engineering principles, and rigorous quality assurance.
 
-### Applying to Work
+#### Value of Tech Communities
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Continuous Learning:** Community events like AWS Watch Parties help practitioners stay abreast of global tech trends, learn from experienced engineers, and sustain long-term career growth.
+
+### Workplace Application
+
+- **Researching and Experimenting with Agentic AI:** Explore combining LLMs with external tools and APIs to build multi-step task automation workflows for personal and workplace projects.
+- **Leveraging AI Tools in Development:** Integrate AI coding assistants into daily coding, debugging, and testing routines to boost engineering productivity.
+- **Designing Cloud-Native Applications:** Prioritize AWS managed services to optimize scalability and reduce infrastructure management overhead.
+- **Staying Engaged with the Community:** Actively participate in AWS meetups and workshops to stay updated on emerging technologies and exchange technical solutions.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Participating in the **AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** was a valuable experience that gave me a comprehensive view of the intersection between cloud computing and next-generation artificial intelligence. Key highlights include:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from Industry Leaders
+- Listening to technology vision and direction directly from **Dr. Werner Vogels (CTO of Amazon)** and AWS specialists on the future of Cloud and AI.
+- Gaining a clearer understanding of how major organizations adopt modern architectures to solve operational challenges and accelerate innovation.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+#### Technical Insights Across Tracks
+- Sessions in the **Builders x AI** track offered practical perspectives on the transition from Generative AI to Agentic AI.
+- Understanding how AI Agents coordinate external tools to execute multi-step workflows, along with the underlying data foundation requirements.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Applying Modern AI Tools
+- Recognizing the role of AI-assisted development tools in streamlining the Software Development Lifecycle (SDLC), while reinforcing the balance between AI-driven speed and disciplined system design.
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+#### Networking and Exchange in HCMC
+- The welcoming atmosphere at the AWS HCMC office fostered open conversations and technical exchanges with fellow engineers and peers in the field.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Lessons Learned
+- **Agentic AI** is reshaping how automated software systems are architected and operated.
+- **Cloud Computing** serves as an indispensable launchpad for building and scaling AI solutions.
+- Maintaining a habit of **continuous learning**, strengthening core technical foundations, and engaging with professional communities are essential to adapting to the rapid pace of the tech industry.
 
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Event Photos
