@@ -95,3 +95,9 @@ Participating in **Cloud Mastery 1** at Bitexco Financial Tower was a memorable 
 #### Event Photos
 
 Below are several moments captured at **Cloud Mastery 1** (26th Floor, Bitexco Financial Tower), including group photos of students and speakers, knowledge-sharing activities, and moments attending the program with my teammate.
+
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 24px 0;">
+  <img src="/fcj-workshop-template/images/cloud-mastery-1-group.png" alt="Cloud mastery 1 group" style="width: 100%; height: 320px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <img src="/fcj-workshop-template/images/cloud-mastery-1-team.png" alt="Cloud mastery 1 team" style="width: 100%; height: 320px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <img src="/fcj-workshop-template/images/a3.png" alt="Cloud mastery 1 presentation" style="grid-column: 1 / -1; width: 70%; max-height: 460px; object-fit: contain; justify-self: center; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+</div>
