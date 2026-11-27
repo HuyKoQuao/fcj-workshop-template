@@ -6,121 +6,92 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Event Report: “Cloud Mastery 1”
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+### General Event Information
 
-### Event Objectives
+- **Event Name:** Cloud Mastery 1
+- **Date:** Saturday, November 14, 2026
+- **Location:** 26th Floor, Bitexco Financial Tower, Ho Chi Minh City
+- **Registration Method:** Registered directly via the FPT University student portal
+- **Format:** In-person (Offline)
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### Purpose of the Event
+
+- Provide FPT University students with an opportunity to explore **Cloud Computing** and real-world deployment scenarios in depth.
+- Foster an interactive space for direct exchange between students and experienced engineers and speakers in the tech industry.
+- Clarify the foundational role of cloud infrastructure in modern software development and operations.
+- Encourage proactive learning, connect the tech-enthusiast student community, and guide practical skill development roadmaps.
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Experienced Alumni & Technology Practitioners** (Sharing hands-on experience in Cloud Computing, learning roadmaps, and career development in the IT industry)
 
-### Key Highlights
+### Event Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Foundational Concepts and Real-World Applications of Cloud Computing
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+The sharing session systematically organized key principles of cloud computing and how enterprises leverage this platform to optimize digital products:
 
-#### Transitioning to modern application architecture – Microservices
+- **Role of Cloud in Modern Software:** Explaining why cloud infrastructure has become the standard for data storage, processing, and large-scale application deployment.
+- **Practical Deployment Perspectives:** Analyzing the differences between classroom theory and real-world system operational requirements in enterprises.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+#### Learning Experience and Career Orientation
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+Senior speakers shared real-world stories ranging from technical skill training to working in professional environments:
 
-#### Domain-Driven Design (DDD)
+- **Skill-Building Roadmap:** Emphasizing the importance of continuous hands-on practice on cloud platforms rather than stopping at reading documentation.
+- **Personal Development Orientation:** Providing clear insights into job roles, required competencies, and a growth mindset when entering the tech industry.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### Networking and Connecting with the FPT Student Community
 
-#### Event-Driven Architecture
+The program dedicated time to interactive activities and group discussions among participating students:
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **Learning Alongside Teammates:** Discussing, comparing notes, and raising questions for speakers together with fellow internship team members.
+- **Expanding Networks:** Connecting with peers and senior students sharing a common interest in Cloud and system infrastructure.
 
 ### Key Takeaways
 
-#### Design Mindset
+#### Cloud Computing Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Bridging Theory and Practice:** Gained a deeper understanding of how cloud infrastructure components work together to ensure application availability and scalability.
+- **Proactive Technology Updates:** Built the habit of independently researching new cloud services and tools to keep up with the rapid pace of industry change.
 
-#### Technical Architecture
+#### Lessons from Hands-On Experience
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Step-by-Step Competency Building:** Solid technical capability is built through working on real projects, encountering errors, and troubleshooting them independently.
+- **Problem-Solving Mindset:** Learned how to approach infrastructure challenges systematically from the advice of experienced practitioners.
 
-#### Modernization Strategy
+#### Collaboration and Technical Communication Skills
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- **The Power of Teamwork:** Attending the event and exchanging perspectives with teammates enabled multi-dimensional and more effective knowledge absorption.
+- **Confidence in Technical Discussions:** Improved the ability to articulate technical ideas and expanded relationships with a community of like-minded students.
 
-### Applying to Work
+### Workplace Application
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Refining Internship Project Architecture:** Apply principles of reliability, scalability, and high availability when deploying the **Driver Drowsiness & Distraction Detection** system on AWS.
+- **Deepening AWS Service Proficiency:** Continue researching and practicing Serverless services, data management, and infrastructure operational monitoring in depth.
+- **Knowledge Sharing Within the Team:** Summarize key takeaways from the session to discuss with teammates and apply suitable solutions to the shared development workflow.
+- **Sustaining Practice Through Projects:** Turn acquired knowledge into tangible products by building and optimizing practical labs and personal projects.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Participating in **Cloud Mastery 1** at Bitexco Financial Tower was a memorable experience that gave me fresh motivation and practical perspectives on my journey into Cloud Computing. Key highlights include:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from Experienced Practitioners
+- Real-world stories and experiences from the speakers helped me better recognize the gap between classroom knowledge and practical enterprise requirements.
+- Realized the immense value of proactively listening, asking questions, and learning from those with extensive industry experience.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+#### Reinforcing Passion for Cloud Computing
+- The program helped me organize why Cloud Computing serves as the backbone of modern applications, giving me extra motivation to invest seriously in hands-on AWS practice.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Accompanying Teammates
+- Attending the event with a team member, taking notes together, and exchanging thoughts right after the sessions made the learning experience much more lively, cohesive, and effective.
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+#### Lessons Learned
+- Classroom knowledge is an important foundation, but **continuous hands-on practice** is the decisive factor in a tech engineer's capability.
+- Proactively **connecting with the community** and learning alongside teammates significantly shortens the time required to adopt new technologies.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Event Photos
 
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+Below are several moments captured at **Cloud Mastery 1** (26th Floor, Bitexco Financial Tower), including group photos of students and speakers, knowledge-sharing activities, and moments attending the program with my teammate.
