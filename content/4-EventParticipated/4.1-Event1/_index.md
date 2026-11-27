@@ -1,5 +1,5 @@
 ---
-title: "AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party"
+title: Event 1
 date: 2026-09-29
 weight: 1
 chapter: false
