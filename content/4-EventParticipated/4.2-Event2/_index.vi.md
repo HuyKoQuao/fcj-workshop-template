@@ -96,8 +96,6 @@ Tham gia **Cloud Mastery 1** tại tòa nhà Bitexco là một trải nghiệm r
 
 Dưới đây là một số khoảnh khắc được ghi lại tại sự kiện **Cloud Mastery 1** (Tầng 26, Tòa nhà Bitexco), bao gồm ảnh tập thể sinh viên cùng diễn giả, hoạt động chia sẻ kinh nghiệm và hình ảnh tôi cùng đồng đội tham gia chương trình.
 
-Dưới đây là một số hình ảnh được ghi lại trong sự kiện **Cloud Mastery 1** tại văn phòng AWS TP. Hồ Chí Minh:
-
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 24px 0;">
   <img src="/fcj-workshop-template/images/cloud-mastery-1-group.png" alt="Cloud mastery 1 group" style="width: 100%; height: 320px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
   <img src="/fcj-workshop-template/images/cloud-mastery-1-team.png" alt="Cloud mastery 1 team" style="width: 100%; height: 320px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
