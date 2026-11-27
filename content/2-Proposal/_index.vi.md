@@ -44,7 +44,7 @@ Thay vì đẩy luồng video liên tục lên đám mây để xử lý, hệ t
 
 ### 4. Kiến trúc giải pháp sơ bộ
 
-![Driver Drowsiness & Distraction Detection Architecture](/fcj-workshop-template/images/2-Proposal/Architecture.png)
+![Driver Drowsiness & Distraction Detection Architecture](/images/2-Proposal/Architecture.png)
 
 #### Luồng xử lý 10 giai đoạn của hệ thống
 
