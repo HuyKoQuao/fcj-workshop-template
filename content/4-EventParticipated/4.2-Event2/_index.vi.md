@@ -6,120 +6,92 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Bài thu hoạch “Cloud Mastery 1”
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Thông Tin Chung Về Sự Kiện
+
+- **Tên sự kiện:** Cloud Mastery 1
+- **Thời gian:** Thứ Bảy, ngày 14/11/2026
+- **Địa điểm:** Tầng 26, Tòa nhà Bitexco, TP. Hồ Chí Minh
+- **Hình thức đăng ký:** Đăng ký trực tiếp qua cổng thông tin sinh viên (Portal) của Đại học FPT
+- **Hình thức tổ chức:** Tham gia trực tiếp (Offline)
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Tạo điều kiện cho sinh viên FPT tìm hiểu chuyên sâu về điện toán đám mây (**Cloud Computing**) và các bài toán triển khai thực tế
+- Xây dựng không gian giao lưu, trao đổi trực tiếp giữa sinh viên với các anh chị kỹ sư, diễn giả đi trước trong ngành công nghệ
+- Làm rõ vai trò cốt lõi của hạ tầng Cloud trong quy trình phát triển và vận hành phần mềm hiện đại
+- Thúc đẩy tinh thần chủ động học hỏi, kết nối cộng đồng sinh viên yêu thích công nghệ và định hướng lộ trình phát triển kỹ năng thực hành
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Đội ngũ anh chị cựu sinh viên & chuyên gia công nghệ** (Chia sẻ kinh nghiệm thực chiến về Cloud Computing, lộ trình học tập và phát triển nghề nghiệp trong ngành IT)
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Kiến thức nền tảng và ứng dụng thực tế của Cloud Computing
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+Phiên chia sẻ tập trung hệ thống hóa tư duy về điện toán đám mây và cách các doanh nghiệp tận dụng nền tảng này để tối ưu hóa sản phẩm số:
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+- **Vai trò của Cloud trong phần mềm hiện đại:** Giải thích lý do hạ tầng đám mây trở thành tiêu chuẩn trong việc lưu trữ, xử lý dữ liệu và triển khai ứng dụng quy mô lớn
+- **Góc nhìn triển khai thực tế:** Phân tích sự khác biệt giữa kiến thức lý thuyết trên giảng đường với yêu cầu vận hành hệ thống thực tế tại doanh nghiệp
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### Chia sẻ kinh nghiệm học tập và định hướng nghề nghiệp
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+Các diễn giả đi trước mang đến những câu chuyện thực tế từ quá trình rèn luyện kỹ thuật đến khi làm việc trong môi trường chuyên nghiệp:
 
-#### Domain-Driven Design (DDD)
+- **Lộ trình trau dồi kỹ năng:** Nhấn mạnh tầm quan trọng của việc thực hành liên tục trên các nền tảng Cloud thay vì chỉ dừng lại ở mức đọc tài liệu
+- **Định hướng phát triển bản thân:** Cung cấp góc nhìn rõ nét về các vị trí công việc, kỹ năng cần chuẩn bị và thái độ cầu thị khi bước vào ngành công nghệ
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+#### Giao lưu và kết nối cộng đồng sinh viên FPT
 
-#### Event-Driven Architecture
+Chương trình dành thời gian cho các hoạt động tương tác, thảo luận nhóm giữa các sinh viên tham dự:
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+- **Học tập cùng đồng đội:** Cùng thành viên trong nhóm thực tập thảo luận, đối chiếu kiến thức và đặt câu hỏi cho diễn giả
+- **Mở rộng mạng lưới:** Kết nối với các bạn sinh viên cùng khóa và khóa trên có chung định hướng theo đuổi mảng Cloud và hạ tầng hệ thống
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
+#### Tư Duy Về Điện Toán Đám Mây (Cloud Computing)
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- **Gắn kết lý thuyết với thực hành:** Hiểu sâu hơn về cách các thành phần hạ tầng đám mây phối hợp để đảm bảo tính sẵn sàng và khả năng mở rộng cho ứng dụng
+- **Chủ động cập nhật công nghệ:** Hình thành thói quen tự nghiên cứu các dịch vụ và công cụ Cloud mới để không bị tụt hậu trước tốc độ thay đổi của ngành
 
-#### Kiến Trúc Kỹ Thuật
+#### Bài Học Từ Kinh Nghiệm Thực Chiến
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- **Tích lũy năng lực từng bước:** Năng lực kỹ thuật vững vàng được xây dựng từ quá trình làm dự án thực tế, gặp lỗi và tự tìm cách khắc phục
+- **Tư duy giải quyết vấn đề:** Học được cách tiếp cận bài toán hạ tầng một cách có hệ thống từ lời khuyên của các anh chị đi trước
 
-#### Chiến Lược Hiện Đại Hóa
+#### Kỹ Năng Hợp Tác Và Giao Tiếp Kỹ Thuật
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- **Sức mạnh của làm việc nhóm:** Việc cùng đồng đội tham gia sự kiện và trao đổi góc nhìn giúp tiếp thu kiến thức đa chiều và hiệu quả hơn
+- **Tự tin thảo luận chuyên môn:** Cải thiện khả năng diễn đạt ý tưởng kỹ thuật và mở rộng mối quan hệ với cộng đồng sinh viên cùng đam mê
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- **Hoàn thiện kiến trúc dự án thực tập:** Vận dụng tư duy về tính ổn định, khả năng mở rộng (scalability) và tính sẵn sàng cao vào quá trình triển khai hệ thống **Driver Drowsiness & Distraction Detection** trên nền tảng AWS
+- **Đào sâu hệ sinh thái dịch vụ AWS:** Tiếp tục nghiên cứu và thực hành chuyên sâu các dịch vụ Serverless, quản lý dữ liệu và giám sát vận hành hạ tầng
+- **Chia sẻ kiến thức trong nhóm:** Tổng hợp các điểm chính từ buổi chia sẻ để thảo luận cùng đồng đội, áp dụng những giải pháp phù hợp vào quy trình phát triển chung
+- **Duy trì thực hành qua dự án:** Biến các kiến thức thu nhận được thành sản phẩm thực tế thông qua việc xây dựng và tối ưu các bài lab, dự án cá nhân
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham gia **Cloud Mastery 1** tại tòa nhà Bitexco là một trải nghiệm rất đáng nhớ, giúp tôi có thêm động lực và góc nhìn thực tế trên hành trình theo đuổi lĩnh vực Cloud Computing. Một số dấu ấn nổi bật:
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+#### Học hỏi từ những người đi trước
+- Những câu chuyện và kinh nghiệm thực tế từ các anh chị diễn giả giúp tôi nhìn nhận rõ hơn khoảng cách giữa kiến thức trên lớp và yêu cầu thực tiễn của doanh nghiệp.
+- Nhận ra giá trị to lớn của việc chủ động lắng nghe, đặt câu hỏi và học hỏi từ những người đã có trải nghiệm dày dặn trong ngành.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+#### Củng cố niềm đam mê với Cloud Computing
+- Chương trình giúp tôi hệ thống lại lý do vì sao Cloud Computing đóng vai trò xương sống trong các ứng dụng hiện đại, từ đó tiếp thêm động lực để tôi đầu tư nghiêm túc hơn vào việc thực hành trên AWS.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
-
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+#### Đồng hành cùng đồng đội
+- Việc cùng thành viên trong nhóm tham gia sự kiện, cùng ghi chú và trao đổi ngay sau các phiên chia sẻ giúp buổi học hỏi trở nên sôi nổi, gắn kết và hiệu quả hơn rất nhiều.
 
 #### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+- Kiến thức trên giảng đường là nền tảng quan trọng, nhưng **thực hành liên tục** mới là yếu tố quyết định năng lực của một kỹ sư công nghệ.
+- Sự chủ động **kết nối cộng đồng** và học hỏi cùng đồng đội giúp rút ngắn đáng kể thời gian tiếp cận các công nghệ mới.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+
+Dưới đây là một số khoảnh khắc được ghi lại tại sự kiện **Cloud Mastery 1** (Tầng 26, Tòa nhà Bitexco), bao gồm ảnh tập thể sinh viên cùng diễn giả, hoạt động chia sẻ kinh nghiệm và hình ảnh tôi cùng đồng đội tham gia chương trình.
