@@ -117,112 +117,12 @@ Tham gia **AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** là một tr�
 
 Dưới đây là một số hình ảnh được ghi lại trong sự kiện **AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** tại văn phòng AWS TP. Hồ Chí Minh:
 
-<style>
-.event-gallery {
-  display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  gap: 28px !important;
-  width: 100% !important;
-  margin: 28px 0 !important;
-  align-items: start !important;
-}
+Dưới đây là một số hình ảnh được ghi lại trong sự kiện **AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** tại văn phòng AWS TP. Hồ Chí Minh:
 
-.event-photo {
-  display: block !important;
-  width: 100% !important;
-  min-width: 0 !important;
-  margin: 0 !important;
-  padding: 12px !important;
-  box-sizing: border-box !important;
-  background: #ffffff !important;
-  border: 1px solid #e5eaf0 !important;
-  border-radius: 12px !important;
-  box-shadow: 0 4px 14px rgba(35, 47, 62, 0.10) !important;
-  overflow: hidden !important;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.event-photo:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 22px rgba(35, 47, 62, 0.16) !important;
-}
-
-.event-photo > img {
-  display: block !important;
-  width: 100% !important;
-  max-width: none !important;
-  height: 340px !important;
-  max-height: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  object-fit: cover !important;
-  object-position: center !important;
-  border-radius: 8px !important;
-}
-
-.event-photo:last-child {
-  grid-column: 1 / -1 !important;
-  width: min(100%, 760px) !important;
-  justify-self: center !important;
-}
-
-.event-photo:last-child > img {
-  width: 100% !important;
-  height: auto !important;
-  max-height: 480px !important;
-  object-fit: contain !important;
-  background: #f5f7fa !important;
-}
-
-@media screen and (max-width: 768px) {
-  .event-gallery {
-    grid-template-columns: 1fr !important;
-    gap: 20px !important;
-  }
-
-  .event-photo > img {
-    width: 100% !important;
-    height: auto !important;
-    max-height: 360px !important;
-    object-fit: contain !important;
-    background: #f5f7fa !important;
-  }
-
-  .event-photo:last-child {
-    grid-column: auto !important;
-    width: 100% !important;
-  }
-}
-</style>
-
-<div class="event-gallery">
-
-  <figure class="event-photo">
-    <img
-      src="/fcj-workshop-template/images/a2.jpg"
-      alt="AWS Cloud and AI Day 2026 Watch Party"
-      loading="lazy"
-    >
-  </figure>
-
-  <figure class="event-photo">
-    <img
-      src="/fcj-workshop-template/images/a2.5.jpg"
-      alt="AWS Cloud and AI Day 2026 Presentations"
-      loading="lazy"
-    >
-  </figure>
-
-  <figure class="event-photo">
-    <img
-      src="/fcj-workshop-template/images/a1.jpg"
-      alt="AWS Cloud and AI Day 2026 Invitation"
-      loading="lazy"
-    >
-  </figure>
-
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 24px 0;">
+  <img src="/fcj-workshop-template/images/a2.5.jpg" alt="AWS Cloud and AI Day 2026 Watch Party" style="width: 100%; height: 320px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <img src="/fcj-workshop-template/images/a2.jpg" alt="AWS Cloud and AI Day 2026 Presentations" style="width: 100%; height: 320px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <img src="/fcj-workshop-template/images/a1.jpg" alt="AWS Cloud and AI Day 2026 Invitation" style="grid-column: 1 / -1; width: 70%; max-height: 460px; object-fit: contain; justify-self: center; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
 </div>
 
 > Tổng thể, sự kiện không chỉ mang đến những cập nhật công nghệ chuyên sâu về Cloud và Agentic AI mà còn giúp tôi mở rộng góc nhìn về phát triển phần mềm hiện đại và kết nối thêm với cộng đồng kỹ thuật tại TP. Hồ Chí Minh.
-
-
