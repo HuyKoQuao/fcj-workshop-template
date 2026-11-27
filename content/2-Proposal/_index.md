@@ -44,7 +44,7 @@ Instead of continuously streaming raw video to the cloud for processing, the sys
 
 ### 4. Preliminary Solution Architecture
 
-![Driver Drowsiness & Distraction Detection Architecture](/fcj-workshop-template/images/2-Proposal/Architecture.jpg)
+![Driver Drowsiness & Distraction Detection Architecture](/fcj-workshop-template/images/Architecture.png)
 
 #### 10-Stage System Processing Flow
 
