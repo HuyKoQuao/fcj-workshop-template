@@ -117,8 +117,6 @@ Tham gia **AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** là một tr�
 
 Dưới đây là một số hình ảnh được ghi lại trong sự kiện **AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** tại văn phòng AWS TP. Hồ Chí Minh:
 
-Dưới đây là một số hình ảnh được ghi lại trong sự kiện **AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party** tại văn phòng AWS TP. Hồ Chí Minh:
-
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin: 24px 0;">
   <img src="/fcj-workshop-template/images/a2.5.jpg" alt="AWS Cloud and AI Day 2026 Watch Party" style="width: 100%; height: 320px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
   <img src="/fcj-workshop-template/images/a2.jpg" alt="AWS Cloud and AI Day 2026 Presentations" style="width: 100%; height: 320px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
