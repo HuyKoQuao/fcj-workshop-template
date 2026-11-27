@@ -1,44 +1,43 @@
 ---
 title: "Events Participated"
-date: 2024-01-01
+date: 2026-11-27
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
-
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
-
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
-
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
-
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+Throughout my internship at **Amazon Web Services Vietnam Co., Ltd.** (**Workforce Bootcamp - First Cloud AI Journey**), I participated in **2 technology events**. Each event provided a memorable experience filled with new, practical, and insightful knowledge in Cloud Computing and AI, alongside meaningful swag and great networking moments with my teammates and the tech community.
 
 ---
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+### Event 1: AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+* **Event Name:** AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party
+* **Date:** September 29, 2026
+* **Location:** AWS Office, Ho Chi Minh City (Live-streamed from the main venue at JW Marriott Hotel Hanoi)
+* **Role:** Attendee
+* **Overview & Key Activities:**
+  * Attended the live keynote delivered by **Dr. Werner Vogels (CTO of Amazon)** and AWS specialists on emerging Cloud trends and the shift from Generative AI to Agentic AI.
+  * Followed technical sessions under the **Builders x AI** and **AI-Driven Application Modernization** tracks, exploring how AI Agents automate multi-step workflows and accelerate Cloud-Native development.
+  * Engaged in in-person networking and technical discussions with AWS engineers and local developers in Ho Chi Minh City.
+* **Outcomes & Value Gained:**
+  * Gained architectural insights into **Agentic AI** and how Large Language Models (LLMs) integrate with external tools and APIs to execute complex tasks.
+  * Deepened my understanding of AWS Cloud's foundational role in scaling AI workloads, directly informing my Serverless design choices and AI-assisted development workflow during the internship.
+  * Strengthened technical communication skills and expanded professional connections within the local tech community.
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+---
 
-&emsp;**Role:** Attendee  
+### Event 2: Cloud Mastery 1
+
+* **Event Name:** Cloud Mastery 1
+* **Date:** Saturday, November 14, 2026
+* **Location:** 26th Floor, Bitexco Financial Tower, Ho Chi Minh City
+* **Role:** Attendee
+* **Overview & Key Activities:**
+  * Attended sharing sessions by experienced alumni and practitioners covering Cloud Computing fundamentals and real-world applications in modern software development.
+  * Participated in discussions on hands-on skill-building roadmaps, practical troubleshooting experiences, and career orientation in the tech industry.
+  * Joined group discussions alongside my internship teammate and connected with fellow FPT University students interested in Cloud technologies.
+* **Outcomes & Value Gained:**
+  * Reinforced the importance of bridging academic theory with hands-on practice, focusing on reliability, scalability, and high availability when designing cloud architectures.
+  * Applied practical infrastructure insights directly toward refining the **Driver Drowsiness & Distraction Detection** capstone project on AWS.
+  * Improved teamwork, technical idea exchange, and collaboration with teammates.
