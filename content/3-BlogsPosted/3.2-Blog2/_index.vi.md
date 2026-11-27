@@ -305,7 +305,7 @@ my-ai-dataset/
 ```
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/NguyenMinhPhuong_Workshop/images/aws-data-ml-architecture.png" alt="Kiến trúc Data và Machine Learning trên AWS Cloud" style="width: 90%; max-width: 850px; border-radius: 8px;">
+  <img src="/fcj-workshop-template/images/aws-data-ml-architecture.png" alt="Kiến trúc Data và Machine Learning trên AWS Cloud" style="width: 90%; max-width: 850px; border-radius: 8px;">
   <p><em>Hình 3 - Kiến trúc Data & Machine Learning trên AWS Cloud sử dụng Amazon S3 để lưu trữ và quản lý dữ liệu.</em></p>
 </div>
 
